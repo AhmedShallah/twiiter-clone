@@ -1,0 +1,165 @@
+* {
+    box-sizing: border-box;
+}
+
+body {
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.logo {
+    width: 200px;
+    margin-left: 50px;
+    height: 0;
+}
+
+.logo .logo-s {
+    color: #1d9bf0;
+    font-size: 35px;
+    margin-left: 40px;
+    padding-bottom: 30px;
+}
+
+.logo .links {
+    list-style: none;
+    margin-left: -70px;
+}
+
+.logo .links li {
+    padding: 15px;
+    cursor: pointer;
+    text-align: center;
+}
+
+.logo .links li:hover {
+    background-color: #eee;
+    border-radius: 55px;
+}
+
+.logo .links i {
+    font-size: 25px;
+    padding-right: 15px;
+}
+
+.logo .links span {
+    font-size: 20px;
+}
+
+.tweet-container {
+    width: 800px;
+    margin: 20px auto 0;
+}
+
+.tweet-container .fild-user .user-name {
+    margin-bottom: 10px;
+    padding: 5px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    outline: none;
+}
+
+.tweet-container .add-tweet {
+    position: relative;
+    padding: 15px;
+    border: 1px solid #eee;
+    padding: 15px 9px 50px 30px;
+}
+
+.tweet-container .add-tweet .the-tweet {
+    display: block;
+    width: 100%;
+    padding: 20px;
+    outline: none;
+    border-radius: 7px;
+    border: none;
+    font-size: 24px;
+}
+
+.tweet-container .add-tweet .user {
+    font-size: 45px;
+    position: absolute;
+    padding-right: -17px;
+    left: 0;
+    top: 24px;
+}
+
+.tweet-container .add-tweet .btn {
+    float: right;
+    background-color: #1d9bf0;
+    font-size: 15px;
+    padding: 10px 15px;
+    border: none;
+    border-radius: 20px;
+    color: #fff;
+    cursor: pointer;
+}
+
+.tweet-container .add-tweet .btn:hover {
+    background-color: #0d86d7
+}
+
+.content-tweet {
+    margin-top: 0;
+    display: grid;
+    padding: 10px 0 10px 10px;
+    position: relative;
+}
+
+.content-tweet .tweet-box {
+    display: block;
+    position: relative;
+}
+
+.content-tweet .tweet-box>div {
+    display: block;
+    padding: 30px;
+}
+
+.content-tweet .tweet-box:not(:last-child) {
+    margin-bottom: 10px;
+}
+
+.content-tweet .tweet-box .the-user {
+    position: absolute;
+    font-size: 48px;
+}
+
+.content-tweet .tweet-box .user-tweet {
+    position: absolute;
+    font-size: 48px;
+}
+
+.content-tweet .tweet-box .name-user {
+    font-size: 20px;
+    position: absolute;
+    left: 55px;
+}
+
+.content-tweet .tweet-box .the-tweet {
+    font-size: 15px;
+    position: absolute;
+    top: 30px;
+    left: 55px;
+}
+
+.content-tweet .tweet-box .user-react {
+    padding: 60px 55px 20px 55px;
+}
+
+.content-tweet .tweet-box .user-react .like {
+    font-size: 25px;
+    padding-right: 280px;
+    cursor: pointer;
+    color: red;
+}
+
+.content-tweet .tweet-box .user-react .deslike {
+    font-size: 25px;
+    padding-right: 280px;
+    cursor: pointer;
+    color: black;
+}
+
+.content-tweet .tweet-box .user-react .share {
+    font-size: 25px;
+    cursor: pointer;
+}
